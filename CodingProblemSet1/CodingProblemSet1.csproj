@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.InterleaveTwoLinkedList</StartupObject>
+    <StartupObject>CodingProblemSet1.MatrixRotate90Degree</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="HasUniqueCharInString.cs" />
     <Compile Include="InterleaveTwoLinkedList.cs" />
+    <Compile Include="MatrixRotate90Degree.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Program.cs" />
