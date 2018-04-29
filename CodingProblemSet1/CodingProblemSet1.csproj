@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.SetEntireRowCol0</StartupObject>
+    <StartupObject>CodingProblemSet1.LinkedList.RemoveDuplicateFromLinkedList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,7 +49,8 @@
     <Compile Include="ArePermutationStrings.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="HasUniqueCharInString.cs" />
-    <Compile Include="InterleaveTwoLinkedList.cs" />
+    <Compile Include="LinkedList\InterleaveTwoLinkedList.cs" />
+    <Compile Include="LinkedList\RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="MatrixRotate90Degree.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="Palindrome.cs" />
