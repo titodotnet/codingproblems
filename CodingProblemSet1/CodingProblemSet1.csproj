@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.LinkedList.RemoveDuplicateFromLinkedList</StartupObject>
+    <StartupObject>CodingProblemSet1.LinkedList.KthToLastElementInLinkedList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="HasUniqueCharInString.cs" />
     <Compile Include="LinkedList\InterleaveTwoLinkedList.cs" />
+    <Compile Include="LinkedList\KthToLastElementInLinkedList.cs" />
     <Compile Include="LinkedList\RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="MatrixRotate90Degree.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
