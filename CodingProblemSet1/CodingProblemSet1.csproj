@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.LinkedList.IdentifyLoopStartOfLinkedList</StartupObject>
+    <StartupObject>CodingProblemSet1.LinkedList.PalindromeLinkedList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="LinkedList\IdentifyLoopStartOfLinkedList.cs" />
     <Compile Include="LinkedList\InterleaveTwoLinkedList.cs" />
     <Compile Include="LinkedList\KthToLastElementInLinkedList.cs" />
+    <Compile Include="LinkedList\PalindromeLinkedList.cs" />
     <Compile Include="LinkedList\PartitionLinkedListAroundAValue.cs" />
     <Compile Include="LinkedList\RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="LinkedList\ReverseLinkedList.cs" />
