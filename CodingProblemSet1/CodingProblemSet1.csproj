@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.LinkedList.PartitionLinkedListAroundAValue</StartupObject>
+    <StartupObject>CodingProblemSet1.LinkedList.ReverseLinkedList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="LinkedList\KthToLastElementInLinkedList.cs" />
     <Compile Include="LinkedList\PartitionLinkedListAroundAValue.cs" />
     <Compile Include="LinkedList\RemoveDuplicateFromLinkedList.cs" />
+    <Compile Include="LinkedList\ReverseLinkedList.cs" />
     <Compile Include="MatrixRotate90Degree.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="Palindrome.cs" />
