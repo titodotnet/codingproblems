@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.LinkedList.PalindromeLinkedList</StartupObject>
+    <StartupObject>CodingProblemSet1.StacksAndQueues.SortStack</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,7 @@
     <Compile Include="ReplaceSpaceWithPercent20.cs" />
     <Compile Include="ReverseAString.cs" />
     <Compile Include="SetEntireRowCol0.cs" />
+    <Compile Include="StacksAndQueues\SortStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
