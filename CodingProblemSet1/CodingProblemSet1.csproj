@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.StacksAndQueues.EvaluatePostfixExpression</StartupObject>
+    <StartupObject>CodingProblemSet1.StacksAndQueues.EvaluatePrefixExpression</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,7 @@
     <Compile Include="SetEntireRowCol0.cs" />
     <Compile Include="StacksAndQueues\CheckForBalancedParanthesis.cs" />
     <Compile Include="StacksAndQueues\EvaluatePostfixExpression.cs" />
+    <Compile Include="StacksAndQueues\EvaluatePrefixExpression.cs" />
     <Compile Include="StacksAndQueues\SortStack.cs" />
   </ItemGroup>
   <ItemGroup>
