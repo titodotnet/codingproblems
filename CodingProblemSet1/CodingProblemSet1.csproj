@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Tree.InsertNodeInBst</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.BstHeight</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -70,6 +70,7 @@
     <Compile Include="StacksAndQueues\EvaluatePrefixExpression.cs" />
     <Compile Include="StacksAndQueues\InfixToPostfix.cs" />
     <Compile Include="StacksAndQueues\SortStack.cs" />
+    <Compile Include="Tree\BstHeight.cs" />
     <Compile Include="Tree\BSTMinMaxValue.cs" />
     <Compile Include="Tree\InsertNodeInBst.cs" />
   </ItemGroup>
