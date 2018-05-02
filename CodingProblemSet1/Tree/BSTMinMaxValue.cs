@@ -18,7 +18,7 @@ namespace CodingProblemSet1.Tree
 
     class BSTMinMaxValueProcessor
     {
-        Node<int> root;
+        BstNode<int> root;
 
         public void Process()
         {
@@ -28,18 +28,18 @@ namespace CodingProblemSet1.Tree
 
         private void Initialize()
         {
-            this.root = new Node<int> { Data = 20 };
-            this.root.Left = new Node<int> { Data = 10 };
-            this.root.Right = new Node<int> { Data = 30 };
+            this.root = new BstNode<int> { Data = 20 };
+            this.root.Left = new BstNode<int> { Data = 10 };
+            this.root.Right = new BstNode<int> { Data = 30 };
 
             //this.root.Left.Left = new Node<int> { Data = 5 };
-            this.root.Left.Right = new Node<int> { Data = 15 };
+            this.root.Left.Right = new BstNode<int> { Data = 15 };
 
-            this.root.Right.Left = new Node<int> { Data = 25 };
+            this.root.Right.Left = new BstNode<int> { Data = 25 };
             //this.root.Right.Right = new Node<int> { Data = 35 };
         }
 
-        private void FindMinMax(Node<int> node)
+        private void FindMinMax(BstNode<int> node)
         {
             var min = FindMinRecursive(node);
             var max = FindMaxRecursive(node);
@@ -51,7 +51,7 @@ namespace CodingProblemSet1.Tree
             FindMaxIterative(node);
         }
 
-        private Node<int> FindMinRecursive(Node<int> node)
+        private BstNode<int> FindMinRecursive(BstNode<int> node)
         {
             if (node == null)
             {
@@ -63,7 +63,7 @@ namespace CodingProblemSet1.Tree
             return result ?? node;
         }
 
-        private Node<int> FindMaxRecursive(Node<int> node)
+        private BstNode<int> FindMaxRecursive(BstNode<int> node)
         {
             if (node == null)
             {
@@ -75,7 +75,7 @@ namespace CodingProblemSet1.Tree
         }
 
 
-        private void FindMinIterative(Node<int> node)
+        private void FindMinIterative(BstNode<int> node)
         {
             if (node == null)
             {
@@ -90,7 +90,7 @@ namespace CodingProblemSet1.Tree
             Console.WriteLine($"Min values is {node.Data}");
         }
 
-        private void FindMaxIterative(Node<int> node)
+        private void FindMaxIterative(BstNode<int> node)
         {
             if (node == null)
             {
@@ -107,12 +107,12 @@ namespace CodingProblemSet1.Tree
         }
     }
 
-    class Node<T>
+    class BstNode<T>
     {
         public T Data { get; set; }
 
-        public Node<T> Left { get; set; }
+        public BstNode<T> Left { get; set; }
 
-        public Node<T> Right { get; set; }
+        public BstNode<T> Right { get; set; }
     }
 }
