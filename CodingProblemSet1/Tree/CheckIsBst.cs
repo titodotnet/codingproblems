@@ -24,30 +24,52 @@ namespace CodingProblemSet1.Tree
         public void Process()
         {
             Initialize();
-            Console.WriteLine($"Is BST : {IsBst(this.root)}");
+            //Console.WriteLine($"Is BST : {IsBst(this.root)}");
+            Console.WriteLine($"Is BST (with min max range) : {IsBst1(this.root, int.MinValue, int.MaxValue)}");
         }
 
-        private bool IsBst(BstNode<int> node)
+        private bool IsBst1(BstNode<int> node, int minValue, int maxValue)
         {
-            if (node.Left == null && node.Right == null)
+            if (node == null)
             {
                 return true;
             }
 
-            var isLeftBst = true;
-            var isRightBst = true;
-            if (node.Left != null)
+            if (node.Data > minValue 
+                && node.Data < maxValue 
+                && IsBst1(node.Left, minValue, node.Data) 
+                && IsBst1(node.Right, node.Data, maxValue))
             {
-                isLeftBst = (node.Data > node.Left.Data) && IsBst(node.Left);
+                return true;
             }
-
-            if (node.Right != null)
+            else
             {
-                isRightBst = (node.Data < node.Right.Data) && IsBst(node.Right);
+                return false;
             }
-            
-            return (isLeftBst && isRightBst);
         }
+
+        // This implementation doesn't address the range.
+        //private bool IsBst(BstNode<int> node)
+        //{
+        //    if (node.Left == null && node.Right == null)
+        //    {
+        //        return true;
+        //    }
+
+        //    var isLeftBst = true;
+        //    var isRightBst = true;
+        //    if (node.Left != null)
+        //    {
+        //        isLeftBst = (node.Data > node.Left.Data) && IsBst(node.Left);
+        //    }
+
+        //    if (node.Right != null)
+        //    {
+        //        isRightBst = (node.Data < node.Right.Data) && IsBst(node.Right);
+        //    }
+
+        //    return (isLeftBst && isRightBst);
+        //}
 
         private void Initialize()
         {
