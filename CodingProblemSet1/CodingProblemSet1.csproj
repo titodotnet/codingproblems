@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Tree.BstTraversalDfs</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.CheckIsBst</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -74,6 +74,7 @@
     <Compile Include="Tree\BSTMinMaxValue.cs" />
     <Compile Include="Tree\BstTraversalBfs.cs" />
     <Compile Include="Tree\BstTraversalDfs.cs" />
+    <Compile Include="Tree\CheckIsBst.cs" />
     <Compile Include="Tree\InsertNodeInBst.cs" />
   </ItemGroup>
   <ItemGroup>
