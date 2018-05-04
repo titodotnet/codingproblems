@@ -107,7 +107,7 @@ namespace CodingProblemSet1.Graph
             }
 
             var unvisitedShortestDistance = unvisitedVertex.Min(kv => kv.Value.ShortestDistance);
-            var vertexToBeVisited = trackingTable.First(kv => kv.Value.Visited == false && kv.Value.ShortestDistance == unvisitedShortestDistance);
+            var vertexToBeVisited = unvisitedVertex.First(kv => kv.Value.ShortestDistance == unvisitedShortestDistance);
 
             return vertexToBeVisited;
         }
