@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Tree.CheckIsBst</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.SortedArrayToBst</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -75,7 +75,9 @@
     <Compile Include="Tree\BstTraversalBfs.cs" />
     <Compile Include="Tree\BstTraversalDfs.cs" />
     <Compile Include="Tree\CheckIsBst.cs" />
+    <Compile Include="Tree\DeleteNodeFromBst.cs" />
     <Compile Include="Tree\InsertNodeInBst.cs" />
+    <Compile Include="Tree\SortedArrayToBst.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
