@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Graph.DijkstraShortestPath</StartupObject>
+    <StartupObject>CodingProblemSet1.Sorting.SelectionSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,6 +66,7 @@
     <Compile Include="ReplaceSpaceWithPercent20.cs" />
     <Compile Include="ReverseAString.cs" />
     <Compile Include="SetEntireRowCol0.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StacksAndQueues\CheckForBalancedParanthesis.cs" />
     <Compile Include="StacksAndQueues\EvaluatePostfixExpression.cs" />
     <Compile Include="StacksAndQueues\EvaluatePrefixExpression.cs" />
