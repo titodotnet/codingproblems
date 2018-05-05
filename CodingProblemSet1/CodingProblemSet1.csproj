@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Sorting.BubbleSort</StartupObject>
+    <StartupObject>CodingProblemSet1.Sorting.InsertionSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,7 @@
     <Compile Include="ReverseAString.cs" />
     <Compile Include="SetEntireRowCol0.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StacksAndQueues\CheckForBalancedParanthesis.cs" />
     <Compile Include="StacksAndQueues\EvaluatePostfixExpression.cs" />
