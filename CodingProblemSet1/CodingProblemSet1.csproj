@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Sorting.InsertionSort</StartupObject>
+    <StartupObject>CodingProblemSet1.Sorting.MergeSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="SetEntireRowCol0.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StacksAndQueues\CheckForBalancedParanthesis.cs" />
     <Compile Include="StacksAndQueues\EvaluatePostfixExpression.cs" />
