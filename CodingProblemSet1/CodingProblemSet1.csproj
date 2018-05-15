@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.Sort012DutchFlagProblem</StartupObject>
+    <StartupObject>CodingProblemSet1.Graph.DijkstraShortestPath</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArePermutationStrings.cs" />
+    <Compile Include="ArraySet\1DArrayMultiplication.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="Graph\DijkstraShortestPath.cs" />
