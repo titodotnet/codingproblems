@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Tree.BstTraversalBfsSpiral</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.FindSetOfThreeNumbersXyz</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="ArePermutationStrings.cs" />
     <Compile Include="ArraySet\1DArrayMultiplication.cs" />
+    <Compile Include="ArraySet\FindSetOfThreeNumbersXyz.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="Graph\DijkstraShortestPath.cs" />
