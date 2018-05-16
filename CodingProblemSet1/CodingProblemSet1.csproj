@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Graph.DijkstraShortestPath</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.BstTraversalBfsSpiral</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +80,7 @@
     <Compile Include="Tree\BstHeight.cs" />
     <Compile Include="Tree\BSTMinMaxValue.cs" />
     <Compile Include="Tree\BstTraversalBfs.cs" />
+    <Compile Include="Tree\BstTraversalBfsSpiral.cs" />
     <Compile Include="Tree\BstTraversalDfs.cs" />
     <Compile Include="Tree\CheckIsBst.cs" />
     <Compile Include="Tree\DeleteNodeFromBst.cs" />
