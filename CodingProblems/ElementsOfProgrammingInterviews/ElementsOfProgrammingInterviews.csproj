@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Arrays._1DArrayMultiplication</StartupObject>
+    <StartupObject>ElementsOfProgrammingInterviews.Arrays.DeleteValueFromArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\1DArrayMultiplication.cs" />
+    <Compile Include="Arrays\DeleteValueFromArray.cs" />
     <Compile Include="Arrays\ReorderArrayByPivot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
