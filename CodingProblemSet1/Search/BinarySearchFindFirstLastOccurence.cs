@@ -27,7 +27,7 @@ namespace CodingProblemSet1.Search
 
         }
 
-        private int FindFirstOrLastOccurence(int[] array, int itemToBeSearched, bool findFirst)
+        public int FindFirstOrLastOccurence(int[] array, int itemToBeSearched, bool findFirst)
         {
             int start = 0;
             int end = array.Length - 1;
