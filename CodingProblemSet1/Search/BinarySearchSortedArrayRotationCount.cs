@@ -22,7 +22,7 @@ namespace CodingProblemSet1.Search
         {
             int[] array = { 25, 27, 28, 29, 2, 5, 7, 9, 11, 13, 15, 17, 22, 24 };
 
-            Console.WriteLine($"count of occurence of 22: {CountSortedArrayRotation(array, 22)}");
+            Console.WriteLine($"count of array rotation: {CountSortedArrayRotation(array)}");
         }
 
         /// <remarks>
@@ -33,7 +33,7 @@ namespace CodingProblemSet1.Search
         /// Case 3: if A[mid] <= A[end] (means right is sorted) then end=mid-1
         /// Case 4: if A[start] <= A[mid] (means left is sorted) then start=mid+1
         /// </remarks>
-        private int CountSortedArrayRotation(int[] array, int itemToBeSearched)
+        private int CountSortedArrayRotation(int[] array)
         {
             int start = 0;
             int end = array.Length - 1;

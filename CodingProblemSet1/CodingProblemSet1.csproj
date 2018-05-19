@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Search.BinarySearchSortedArrayRotationCount</StartupObject>
+    <StartupObject>CodingProblemSet1.Search.BinarySearchInCircularSortedArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +71,7 @@
     <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="Search\BinarySearchCountOccurence.cs" />
     <Compile Include="Search\BinarySearchFindFirstLastOccurence.cs" />
+    <Compile Include="Search\BinarySearchInCircularSortedArray.cs" />
     <Compile Include="Search\BinarySearchSortedArrayRotationCount.cs" />
     <Compile Include="SetEntireRowCol0.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
