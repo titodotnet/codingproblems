@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Search.BinarySearchInCircularSortedArray</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.Print2DArraySpiral</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="ArePermutationStrings.cs" />
     <Compile Include="ArraySet\1DArrayMultiplication.cs" />
     <Compile Include="ArraySet\FindSetOfThreeNumbersXyz.cs" />
+    <Compile Include="ArraySet\Print2DArraySpiral.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="Graph\DijkstraShortestPath.cs" />
