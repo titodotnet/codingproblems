@@ -66,7 +66,7 @@ namespace CodingProblemSet1.Search
                 }
                 else if (array[mid] >= array[start])
                 {
-                    if (itemToBeSearched < array[mid] && itemToBeSearched > array[start])
+                    if (itemToBeSearched < array[mid] && itemToBeSearched >= array[start])
                     {
                         end = mid - 1;
                     }
