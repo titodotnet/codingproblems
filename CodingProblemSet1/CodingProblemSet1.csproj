@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.Tree.BstToDll</StartupObject>
+    <StartupObject>CodingProblemSet1.Search.BinarySearch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReplaceSpaceWithPercent20.cs" />
     <Compile Include="ReverseAString.cs" />
+    <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="SetEntireRowCol0.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
