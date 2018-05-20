@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.LargestSumContiguousSubarray</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.LowestCommonAncestorBst</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -94,6 +94,7 @@
     <Compile Include="Tree\CheckIsBst.cs" />
     <Compile Include="Tree\DeleteNodeFromBst.cs" />
     <Compile Include="Tree\InsertNodeInBst.cs" />
+    <Compile Include="Tree\LowestCommonAncestorBst.cs" />
     <Compile Include="Tree\SortedArrayToBst.cs" />
   </ItemGroup>
   <ItemGroup>
