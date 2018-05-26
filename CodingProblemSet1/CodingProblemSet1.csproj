@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.StacksAndQueues.StackUsingQueue</StartupObject>
+    <StartupObject>CodingProblemSet1.Misc.AngleBetweenHourAndMinute</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -65,6 +65,7 @@
     <Compile Include="LinkedList\RemoveDuplicateFromLinkedList.cs" />
     <Compile Include="LinkedList\ReverseLinkedList.cs" />
     <Compile Include="MatrixRotate90Degree.cs" />
+    <Compile Include="Misc\AngleBetweenHourAndMinute.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Program.cs" />
