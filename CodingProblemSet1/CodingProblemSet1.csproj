@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.DynamicProgramming.EditDistanceProblem</StartupObject>
+    <StartupObject>CodingProblemSet1.DynamicProgramming.LongestCommonSubsequence</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="DynamicProgramming\EditDistanceProblem.cs" />
+    <Compile Include="DynamicProgramming\LongestCommonSubsequence.cs" />
     <Compile Include="Graph\DijkstraShortestPath.cs" />
     <Compile Include="HasUniqueCharInString.cs" />
     <Compile Include="LinkedList\IdentifyLoopStartOfLinkedList.cs" />
