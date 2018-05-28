@@ -73,7 +73,7 @@ namespace CodingProblemSet1.Tree
                 {
                     var minRightNode = FindMin(node.Right); // Find the minimum value from right. Max value from left also will work.
                     node.Data = minRightNode.Data; // Copy the value so that the hierarchy is maintained.
-                    node = Delete(node.Right, node.Data); // Delete the duplicate node - this will end up in Case 1 or Case 2.
+                    node.Right = Delete(node.Right, node.Data); // Delete the duplicate node - this will end up in Case 1 or Case 2.
                     //return node;
                 }
             }
