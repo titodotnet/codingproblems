@@ -53,7 +53,7 @@ namespace CodingProblemSet1.ArraySet
                 {
                     resultant.Add(firstArray[i]);
                     i++;
-                    j--;
+                    j--; // TODO: Bug fix: should be j++
                 }
                 else if (firstArray[i] > secondArray[j])
                 {
