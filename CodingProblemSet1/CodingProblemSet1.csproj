@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.DynamicProgramming.LongestCommonSubsequence</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.MaxDiffStockSingleSell</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="ArraySet\FindSetOfThreeNumbersXyz.cs" />
     <Compile Include="ArraySet\IntersectionOfTwoSortedArrays.cs" />
     <Compile Include="ArraySet\LargestSumContiguousSubarray.cs" />
+    <Compile Include="ArraySet\MaxDiffStockSingleSell.cs" />
     <Compile Include="ArraySet\Print2DArraySpiral.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
