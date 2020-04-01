@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.DeleteDuplicatesFromSortedArray</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.HourglassSumMax</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="ArraySet\AdvancingArray.cs" />
     <Compile Include="ArraySet\DeleteDuplicatesFromSortedArray.cs" />
     <Compile Include="ArraySet\FindSetOfThreeNumbersXyz.cs" />
+    <Compile Include="ArraySet\HourglassSumMax.cs" />
     <Compile Include="ArraySet\IntersectionOfTwoSortedArrays.cs" />
     <Compile Include="ArraySet\LargestSumContiguousSubarray.cs" />
     <Compile Include="ArraySet\MaxDiffStockSingleSell.cs" />
