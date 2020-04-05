@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.HourglassSumMax</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.LeftRotation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,8 +54,10 @@
     <Compile Include="ArraySet\HourglassSumMax.cs" />
     <Compile Include="ArraySet\IntersectionOfTwoSortedArrays.cs" />
     <Compile Include="ArraySet\LargestSumContiguousSubarray.cs" />
+    <Compile Include="ArraySet\LeftRotation.cs" />
     <Compile Include="ArraySet\MaxDiffStockSingleSell.cs" />
     <Compile Include="ArraySet\Print2DArraySpiral.cs" />
+    <Compile Include="ArraySet\RightRotation.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
     <Compile Include="ArraySet\StockBuySell.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
