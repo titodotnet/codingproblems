@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.LeftRotation</StartupObject>
+    <StartupObject>CodingProblemSet1.ArraySet.SortArrayByParity</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,7 @@
     <Compile Include="ArraySet\Print2DArraySpiral.cs" />
     <Compile Include="ArraySet\RightRotation.cs" />
     <Compile Include="ArraySet\Sort012DutchFlagProblem.cs" />
+    <Compile Include="ArraySet\SortArrayByParity.cs" />
     <Compile Include="ArraySet\StockBuySell.cs" />
     <Compile Include="CompressRepeatedCharString.cs" />
     <Compile Include="DynamicProgramming\EditDistanceProblem.cs" />
