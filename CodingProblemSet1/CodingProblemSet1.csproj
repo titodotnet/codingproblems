@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CodingProblemSet1.ArraySet.FlipAndInvert</StartupObject>
+    <StartupObject>CodingProblemSet1.Tree.BstPrintAllCousins</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -101,6 +101,7 @@
     <Compile Include="StacksAndQueues\StackUsingQueue.cs" />
     <Compile Include="Tree\BstHeight.cs" />
     <Compile Include="Tree\BSTMinMaxValue.cs" />
+    <Compile Include="Tree\BstPrintAllCousins.cs" />
     <Compile Include="Tree\BstToDll.cs" />
     <Compile Include="Tree\BstTraversalBfs.cs" />
     <Compile Include="Tree\BstTraversalBfsSpiral.cs" />
